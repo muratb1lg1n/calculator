@@ -1,0 +1,84 @@
+button{
+    cursor: pointer;
+    position: fixed;
+}
+.ac{
+    margin-top: 10%;
+    margin-left: 39%;
+}
+.yedi{
+    margin-top: 10%;
+    margin-left: 44%;
+}
+.sekiz{
+    margin-top: 10%;
+    margin-left: 49%;
+}
+.dokuz{
+    margin-top: 10%;
+    margin-left: 54%;
+}
+.bol{
+    margin-top: 10%;
+    margin-left: 59%;
+}
+.clear{
+    margin-top: 15%;
+    margin-left: 39%;
+}
+.dort{
+    margin-top: 15%;
+    margin-left: 44%;
+}
+.bes{
+    margin-top: 15%;
+    margin-left: 49%;
+}
+.alti{
+    margin-top: 15%;
+    margin-left: 54%;
+}
+.carp{
+    margin-top: 15%;
+    margin-left: 59%;
+}
+.kare{
+    margin-top: 20%;
+    margin-left: 39%;
+}
+.bir{
+    margin-top: 20%;
+    margin-left: 44%;
+}
+.iki{
+    margin-top: 20%;
+    margin-left: 49%;
+}
+.uc{
+    margin-top: 20%;
+    margin-left: 54%;
+}
+.eksi{
+    margin-top: 20%;
+    margin-left: 59%;
+}
+.negatif{
+    margin-top: 25%;
+    margin-left: 39%;
+}
+.nokta{
+    margin-top: 25%;
+    margin-left: 44%;
+}
+.sifir{
+    margin-top: 25%;
+    margin-left: 49%;
+}
+.esit{
+    margin-top: 25%;
+    margin-left: 54%;
+}
+.arti{
+    margin-top: 25%;
+    margin-left: 59%;
+}
