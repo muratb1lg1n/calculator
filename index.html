@@ -7,29 +7,47 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="tuslar">
-        <button class="ac">AC</button>
-        <button class="yedi">7</button>
-        <button class="sekiz">8</button>
-        <button class="dokuz">9</button>
-        <button class="bol">/</button>
-        <button class="clear">Cl</button>
-        <button class="dort">4</button>
-        <button class="bes">5</button>
-        <button class="alti">6</button>
-        <button class="carp">*</button>
-        <button class="kare">x^2</button>
-        <button class="bir">1</button>
-        <button class="iki">2</button>
-        <button class="uc">3</button>
-        <button class="eksi">-</button>
-        <button class="negatif">(-)</button>
-        <button class="nokta">.</button>
-        <button class="sifir">0</button>
-        <button class="esit">=</button>
-        <button class="arti">+</button>
-    </div>
- 
     <script src="./script.js"></script>
+    <div class="renk"></div>
+    <div id="ana">
+        <form name="girdi">
+            <input class="text" name="text">
+        </form>
+        <div id="tuslar">
+            <table>
+                <tr>
+                    <td><input type="button" class="tus" value="AC" onclick="temiz('')"></td>
+                    <td><input type="button" class="tus" value="<" onclick="sil()"></td>
+                    <td><input type="button" class="tus" value="x^2" onclick="kare()"></td>
+                    <td><input type="button" class="tus" value="/" onclick="yaz('/')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="tus" value="7" onclick="yaz(7)"></td>
+                    <td><input type="button" class="tus" value="8" onclick="yaz(8)"></td>
+                    <td><input type="button" class="tus" value="9" onclick="yaz(9)"></td>
+                    <td><input type="button" class="tus" value="*" onclick="yaz('*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="tus" value="4" onclick="yaz(4)"></td>
+                    <td><input type="button" class="tus" value="5" onclick="yaz(5)"></td>
+                    <td><input type="button" class="tus" value="6" onclick="yaz(6)"></td>
+                    <td><input type="button" class="tus" value="-" onclick="yaz('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="tus" value="1" onclick="yaz(1)"></td>
+                    <td><input type="button" class="tus" value="2" onclick="yaz(2)"></td>
+                    <td><input type="button" class="tus" value="3" onclick="yaz(3)"></td>
+                    <td><input type="button" class="tus" value="+" onclick="yaz('+')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="tus" value="Color" onclick="random()"></td>
+                    <td><input type="button" class="tus" value="0" onclick="yaz(0)"></td>
+                    <td><input type="button" class="tus" value="." onclick="yaz('.')"></td>
+                    <td><input type="button" class="tus" value="=" onclick="esit()"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
 </body>
 </html>
