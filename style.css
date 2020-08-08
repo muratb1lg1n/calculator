@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: lavender;
+    background-color: lightblue;
 }
 .renk{
     width: 100%;
@@ -22,4 +22,9 @@ body{
     height: 20px;
     margin: 5px;
     cursor: pointer;
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    border-style: ridge;
+    border-radius: ;
 }

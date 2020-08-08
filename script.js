@@ -16,3 +16,6 @@ function sil(){
 function random(){
     document.querySelector(".renk").style.backgroundColor = "red";
 }
+function kok(){
+    document.girdi.text.value = Math.sqrt(document.girdi.text.value)
+}
