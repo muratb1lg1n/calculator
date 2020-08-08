@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: lightblue;
+    text-align: center;
 }
 .renk{
     width: 100%;
@@ -13,9 +14,13 @@ body{
     font-size: 30px;
 }
 #ana{
-    position: fixed;
-    top: 20%;
-    left: 40%;
+    width: 100%;
+    margin: 50px auto ;
+    text-align: center;
+}
+#tuslar{
+    width: 300px;
+    margin: auto;
 }
 .tus{
     width: 60px;
@@ -26,5 +31,4 @@ body{
     background-color: green;
     border-radius: 15px;
     border-style: ridge;
-    border-radius: ;
 }
